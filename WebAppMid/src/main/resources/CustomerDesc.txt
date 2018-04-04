@@ -1,0 +1,22 @@
++-----------------+-------------+------+-----+---------+----------------+
+| Field           | Type        | Null | Key | Default | Extra          |
++-----------------+-------------+------+-----+---------+----------------+
+| id              | int(11)     | NO   | PRI | NULL    | auto_increment |
+| company         | varchar(50) | YES  | MUL | NULL    |                |
+| last_name       | varchar(50) | YES  | MUL | NULL    |                |
+| first_name      | varchar(50) | YES  | MUL | NULL    |                |
+| email_address   | varchar(50) | YES  |     | NULL    |                |
+| job_title       | varchar(50) | YES  |     | NULL    |                |
+| business_phone  | varchar(25) | YES  |     | NULL    |                |
+| home_phone      | varchar(25) | YES  |     | NULL    |                |
+| mobile_phone    | varchar(25) | YES  |     | NULL    |                |
+| fax_number      | varchar(25) | YES  |     | NULL    |                |
+| address         | longtext    | YES  |     | NULL    |                |
+| city            | varchar(50) | YES  | MUL | NULL    |                |
+| state_province  | varchar(50) | YES  | MUL | NULL    |                |
+| zip_postal_code | varchar(15) | YES  | MUL | NULL    |                |
+| country_region  | varchar(50) | YES  |     | NULL    |                |
+| web_page        | longtext    | YES  |     | NULL    |                |
+| notes           | longtext    | YES  |     | NULL    |                |
+| attachments     | longblob    | YES  |     | NULL    |                |
++-----------------+-------------+------+-----+---------+----------------+
